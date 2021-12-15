@@ -35,4 +35,13 @@ button{
 }
 
 
+#second {
+    display: inline-flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.totalBill {
+    width: 50%;
+}
 

@@ -11,15 +11,19 @@
     <div id = "main">
     <h1 align="center">Tip Calulator</h1>
         <label for="billAmount">How much is bill</label><br>
-        <input type="number" id="billAmount" placeholder="pls enter Bill ammount"><br>
+        <input type="number" id="billAmount" placeholder="pls enter Bill amount"><br>
         <label for="tip">How much you want to Tip</label><br>
         <input type ="number" id ="tip" placeholder="Pls enter tip percentage">
         <button type="submit" id ="btn">Calculate</button>
         <div id="second">
-            <label for="tip-amount">Tip Amount</label>
-            <input type="number" id="tip-amount"placeholder="pls enter number of people Sharing Bill" disabled>
-            <label for="total-bill">Total Bill</label>
-            <input type ="number" id = "total-bill" disabled placeholder ="Total bill Amount">
+            <div class="totalBill">
+                <label for="tip-amount">Tip Amount</label>
+            <input type="number" id="tip-amount"placeholder="Total Tip" disabled>
+            </div>
+            <div class = "totalBill">
+                <label for="total-bill">Total Bill</label>
+                <input type ="number" id = "total-bill" disabled placeholder ="Total bill Amount">
+            </div>
         </div>
     </div>
     <script src = "javascript.js"></script>
