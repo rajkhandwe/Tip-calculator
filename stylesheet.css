@@ -1,16 +1,14 @@
-body {
+/* body {
     background-color: black;
     color: white;
 }
 
 #main {
-    
     width: 50%;
     background-color: white;
     border: 1px solid white;
     color: black;
     margin-left: 25%;
-    padding: auto;
 }
 
 h1 {
@@ -32,6 +30,7 @@ button{
     border-radius: 25px;
     border: 1px solid black;
     padding: 7px;
+    margin-left: 2%;
 }
 
 
@@ -44,4 +43,52 @@ button{
 .totalBill {
     width: 50%;
 }
+*/
 
+body, h1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+h1 {
+    padding: 2px;
+}
+
+#main {
+    border: 1px solid white;
+    background-color: white;
+    padding: 0.5%;
+    color: black;
+    max-width: 40%;
+}
+
+#maintwo {
+    display: flex;
+    flex-direction: column;
+}
+
+#billAmount, #tip, button {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom:5%;
+    padding: 0.15%;
+}
+button {
+    background-color: rgb(0, 255, 255);
+    border-radius: 25px;
+    font-weight: 700;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#second {
+    display: inline-flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.totalBill{
+    width: 50%;
+}
